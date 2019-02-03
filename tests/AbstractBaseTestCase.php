@@ -2,7 +2,7 @@
 
 namespace VictorAvelar\Exoskeleton\Tests;
 
-use Phpunit\Framework\TestCase;
+use PHPUnit\Framework\TestCase;
 
 abstract class AbstractBaseTestCase extends TestCase
 {

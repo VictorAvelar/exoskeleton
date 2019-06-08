@@ -21,6 +21,8 @@
         "php" : "~7.1"
     },
     "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.15",
+        "nunomaduro/phpinsights": "^1.6",
         "phpmd/phpmd": "^2.6",
         "phpstan/phpstan": "^0.11.1",
         "phpunit/phpunit": ">=7.0",
@@ -40,7 +42,8 @@
         "test": "phpunit",
         "check-style": "phpcs src tests",
         "fix-style": "phpcbf src tests",
-        "analyse": "phpstan analyse src tests -l 5"
+        "analyse": "phpstan analyse src tests -l 5",
+        "stats": "phpinsights"
     },
     "extra": {
         "branch-alias": {
